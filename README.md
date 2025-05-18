@@ -134,11 +134,11 @@ The API documentation is available at `/swagger-ui.html` when running the backen
 
 ## 📝 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is free to use for students who are looking to build similar projects and upgrade my project.
 
 ## 👥 Authors
 
-- Your Name - Initial work - [YourGitHub](https://github.com/yourusername)
+- Swastik Sengupta - AIML student - [YourGitHub](https://github.com/yourusername)
 
 ## 🙏 Acknowledgments
 
