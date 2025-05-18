@@ -138,7 +138,7 @@ This project is free to use for students who are looking to build similar projec
 
 ## 👥 Authors
 
-- Swastik Sengupta - AIML student - [My GitHub](https://github.com/Swastik-51)]
+- Swastik Sengupta - AIML student - [My GitHub](https://github.com/Swastik-51)
 
 ## 🙏 Acknowledgments
 
