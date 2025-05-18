@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;com.bookworm.services.impl.UserServiceImplementation.java&apos; to &apos;UserServiceImpl.java&apos;&#x0D;&#x0A;- Original project: &apos;BookWorm&apos;&#x0D;&#x0A;- Original element: &apos;com.bookworm.services.impl.UserServiceImplementation.java&apos;&#x0D;&#x0A;- Renamed element: &apos;com.bookworm.services.impl.UserServiceImpl.java&apos;" description="Rename compilation unit &apos;UserServiceImplementation.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.bookworm.services.impl{UserServiceImplementation.java" name="UserServiceImpl.java" references="false" stamp="1745427991144" version="1.0"/>
+</session>

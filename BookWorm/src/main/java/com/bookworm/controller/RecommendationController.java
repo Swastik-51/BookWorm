@@ -1,0 +1,32 @@
+package com.bookworm.controller;
+
+import com.bookworm.model.Recommendation;
+import com.bookworm.repository.RecommendationRepository;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
+
+@RestController
+@RequestMapping("/api/recommendations")
+public class RecommendationController {
+    private final RecommendationRepository recommendationRepo;
+
+    public RecommendationController(RecommendationRepository recommendationRepo) {
+        this.recommendationRepo = recommendationRepo;
+    }
+
+    @GetMapping
+    public List<Recommendation> getAllRecommendations() {
+        return recommendationRepo.findAll();
+    }
+
+    @PostMapping
+    public Recommendation createRecommendation(@RequestBody Recommendation rec) {
+        return recommendationRepo.save(rec);
+    }
+    @GetMapping("/based-on-genre")
+    public List<Recommendation> recommendByGenre(@RequestParam String genre) 
+    {
+    	return recommendationRepo.findByBookGenre(genre);
+    }
+}
